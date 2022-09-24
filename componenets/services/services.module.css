@@ -153,6 +153,43 @@
     gap: 45px;
 
     width: 50%;
+    text-align: center;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cardTopLeft:hover {
+    border: #25A4AD 3px solid;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../../public/images/feed.png");
+    border-radius: 250px 0px 0px 0px;
+}
+
+.cardTopLeft {
+    width: 100%;
+    height: 33.525625rem;
+
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+
+    /* Inside auto layout */
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../public/images/feed.png");
+    border-radius: 236px 0px 0px 0px;
+}
+
+.cardBottomLeft {
+    width: 100%;
+    height: 33.525625rem;
 
 
     /* Inside auto layout */
@@ -160,4 +197,85 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    text-align: center;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../public/images/Webinar.png");
+    border-radius: 0px 0px 0px 236px;
+}
+
+.cardTopRight {
+
+
+
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../public/images/Kurumlar.png");
+    border-radius: 0px 236px 0px 0px;
+
+
+    width: 100%;
+    height: 33.525625rem;
+
+    text-align: center;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.cardBottomRight {
+    width: 100%;
+    height: 33.525625rem;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../public/images/mentörlük.png");
+    border-radius: 0px 0px 236px 0px;
+}
+
+.cardHeader {
+
+    width: fit-content;
+
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 100%;
+    /* or 46px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    display: inline;
+
+    position: relative;
+    top: 3em;
+
+}
+
+.cardDetail {
+
+    width: "fit-content";
+
+    padding: 1rem;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    text-align: center;
+    position: relative;
+    top: 6em;
+
+    color: #FFFFFF;
 }
