@@ -4,6 +4,7 @@ import Content from '../componenets/header/content/content';
 import Nav from '../componenets/header/nav/nav';
 import Layout, { siteTitle } from '../componenets/layout';
 import Logos from '../componenets/logos/logos';
+import Options from '../componenets/options/options';
 import Services from '../componenets/services/services';
 import Line from '../utils/line';
 
@@ -19,6 +20,7 @@ export default function Home() {
     <Line />
     <Features />
     <Logos />
+    <Options />
   </Layout>
   );
 }
