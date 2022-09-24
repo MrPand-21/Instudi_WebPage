@@ -1,0 +1,76 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 53px;
+}
+
+.logo {
+    width: 142.97px;
+    height: 171px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+
+    width: 337.12px;
+    height: 25px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.navlinkitem:hover {
+    color: #25A4AD;
+}
+
+.navlinkitem {
+    width: 95px;
+    height: 25px;
+
+    font-family: 'Gilroy', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #313131;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.mainpage {
+    order: 0;
+}
+
+.about {
+    width: 99.7px;
+    order: 1;
+}
+
+.contact {
+    width: 72.42px;
+    order: 2;
+}
