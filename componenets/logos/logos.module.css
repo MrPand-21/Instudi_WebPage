@@ -1,0 +1,15 @@
+.logos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8 !important;
+    padding: 40px 0px !important;
+    gap: 20px !important;
+
+    width: auto;
+    height: fit-content !important;
+
+    background-color: #25A4AD;
+}

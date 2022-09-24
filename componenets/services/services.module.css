@@ -168,6 +168,24 @@
     border-radius: 250px 0px 0px 0px;
 }
 
+.cardBottomLeft:hover {
+    border: #25A4AD 3px solid;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../../public/images/Webinar.png");
+    border-radius: 0px 0px 0px 250px;
+}
+
+.cardTopRight:hover {
+    border: #25A4AD 3px solid;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../../public/images/Kurumlar.png");
+    border-radius: 0px 250px 0px 0px;
+}
+
+.cardBottomRight:hover {
+    border: #25A4AD 3px solid;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../../public/images/mentor.png");
+    border-radius: 0px 0px 250px 0px;
+}
+
 .cardTopLeft {
     width: 100%;
     height: 33.525625rem;
