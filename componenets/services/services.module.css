@@ -235,7 +235,7 @@
     order: 1;
     flex-grow: 0;
 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../public/images/mentörlük.png");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../public/images/mentor.png");
     border-radius: 0px 0px 236px 0px;
 }
 
