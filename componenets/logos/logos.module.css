@@ -7,9 +7,7 @@
     opacity: 0.8 !important;
     padding: 40px 0px !important;
     gap: 20px !important;
-
-    width: auto;
     height: fit-content !important;
-
+    position: relative;
     background-color: #25A4AD;
 }

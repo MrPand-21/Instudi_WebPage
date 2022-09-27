@@ -1,0 +1,267 @@
+.footer {
+    padding: 0 !important;
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    background: #313131;
+}
+
+.footer_text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 76px;
+
+    z-index: 10;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 10.972%;
+    top: 27.5%;
+}
+
+.footer_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: fit-content;
+    height: fit-content;
+
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer_title_header {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 64px;
+    /* identical to box height */
+    background: linear-gradient(89.94deg, #25A4AD -1.77%, #83c4c8 99.01%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer_title_text {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: fit-content;
+    height: fit-content;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer_subtitle {
+
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.links_link {
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    flex: none;
+    flex-grow: 0;
+}
+
+.links_link:hover {
+    color: #25A4AD;
+}
+
+.link_1 {
+    order: 1;
+}
+
+.link_2 {
+    order: 2;
+}
+
+.link_3 {
+    order: 3;
+}
+
+.footer_contact {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.contact_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+
+    width: fit-content;
+    height: fit-content;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contact_text {
+    width: fit-content;
+    height: fit-content;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+
+    color: #FFFFFF;
+
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contact_address {
+    width: fit-content;
+    height: fit-content;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+
+    color: rgba(255, 255, 255, 0.7);
+
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer_copy {
+    width: 100%;
+    font-family: 'Gilroy' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+    position: absolute;
+    bottom: 0;
+}
+
+.triangle_top {
+    width: 38.5416%;
+    height: 100%;
+    background: #2C2C2C;
+    position: absolute;
+    right: 0;
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.triangle_bottom {
+    width: 67.916%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #272727;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+
+}
+
+.triangle_left {
+    width: 55%;
+    height: 67%;
+    background: #222;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+.triangles {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}

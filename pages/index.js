@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Features from '../componenets/features/features';
+import Footer from '../componenets/footer/footer';
 import Form from '../componenets/form/form';
 import Content from '../componenets/header/content/content';
 import Nav from '../componenets/header/nav/nav';
@@ -23,9 +24,9 @@ export default function Home() {
       <Line />
       <Features />
       <Logos />
-      <Options />
+      <Options id={ "discover-plans" } />
       <Line />
-      <Form />
+      <Form id={ "pre-register" } />
     </Layout>
   );
 }

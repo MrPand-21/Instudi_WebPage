@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Input from '../../utils/input/input'
 import styles from './form.module.css'
 
-export default function Form() {
+export default function Form({ id }) {
 
     const [credentials, setCredentials] = useState({
         email: "",
@@ -23,7 +23,7 @@ export default function Form() {
 
 
     return (
-        <div className={ styles.formContainer }>
+        <div className={ styles.formContainer } id={ id }>
             <h2 className={ styles.header }>Erken Kaydol</h2>
             <Input
                 type="mail"

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from './footer/footer';
 import styles from './layout.module.css';
 
 
@@ -20,7 +21,10 @@ export default function Layout({ children, home }) {
             <header className={ styles.header }>
             </header>
 
-            <main>{ children }</main>
+            <main className={ styles.main } >{ children }</main>
+            <footer>
+                <Footer />
+            </footer>
 
         </div>
     );

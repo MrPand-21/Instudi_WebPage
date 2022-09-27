@@ -13,8 +13,8 @@ export default function Content() {
 
                 </p>
                 <div className={ styles.buttonGroup }>
-                    <button className={ styles.preRegister }>Erken Kaydol</button>
-                    <button className={ styles.discover }>Keşfet</button>
+                    <button className={ styles.preRegister }><a href="#pre-register" >Erken Kaydol</a></button>
+                    <button className={ styles.discover }><a href="#discover-plans">Keşfet</a></button>
                 </div>
             </div>
             <div className={ styles.contentRight }>

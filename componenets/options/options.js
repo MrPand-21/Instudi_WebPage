@@ -2,7 +2,7 @@ import Head from 'next/head'
 import ListCard from '../../utils/listCard/listCard'
 import styles from './options.module.css'
 
-export default function Options() {
+export default function Options({ id }) {
 
     let options = [
         {
@@ -36,7 +36,7 @@ export default function Options() {
     ]
 
     return (
-        <div className={ styles.container } >
+        <div className={ styles.container } id={ id }>
             <h2 className={ styles.header }>
                 Kullanıcı <h2 className={ styles.headerBold }>Seçenekleri</h2></h2>
             <div className={ styles.options }>

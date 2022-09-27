@@ -28,7 +28,7 @@ export default function Features() {
                     return <Card key={ index } title={ feature.title } detail={ feature.detail } />
                 }) }
             </div>
-            <button className={ styles.preRegister }>Erken Kaydol</button>
+            <button className={ styles.preRegister }><a href="#pre-register">Erken Kaydol</a></button>
 
         </div>
     )
