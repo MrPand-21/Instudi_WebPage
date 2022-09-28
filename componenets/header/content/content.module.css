@@ -118,16 +118,26 @@
     flex-grow: 0;
 }
 
+@keyframes preRegisterButtonShine {
+    from {}
+
+    to {
+        background-color: #00ccdf;
+        color: #ffffff;
+    }
+}
+
+
 .preRegister:hover {
-    background-color: #00ccdf;
-    color: #ffffff;
+    animation-name: preRegisterButtonShine;
+    animation-duration: 0.5s;
 }
 
 .preRegister {
     width: 256.2px;
     height: 73.39px;
     cursor: pointer;
-
+    animation-fill-mode: forwards;
     /* Inside auto layout */
 
     flex: none;
@@ -144,18 +154,29 @@
     box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
 }
 
+@keyframes discoverButtonShine {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-color: #25A4AD;
+        color: white;
+    }
+}
+
+
 .discover:hover {
-    background-color: #25A4AD;
-    color: white;
+    animation-name: discoverButtonShine;
+    animation-duration: 0.5s;
 }
 
 .discover {
     width: 214.49px;
     height: 73.39px;
     cursor: pointer;
-
     /* Inside auto layout */
-
+    animation-fill-mode: forwards;
     flex: none;
     order: 1;
     flex-grow: 0;

@@ -13,6 +13,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    --placeholder-color: #BDBDBD;
 }
 
 .header {
@@ -56,7 +57,7 @@
     line-height: 150%;
     align-items: center;
     letter-spacing: -0.2px;
-    color: #BDBDBD;
+    color: var(--placeholder-color);
 }
 
 .input:focus {
@@ -81,6 +82,7 @@
     /* Inside auto layout */
     align-self: stretch;
     flex-grow: 0;
+    order: 1;
     border: #F3F5F7 2px solid;
 
     height: fit-content;
@@ -93,4 +95,29 @@
     letter-spacing: -0.2px;
     color: #242424;
     padding: 13px 20px 13px 13px;
+}
+
+.error {
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+    height: fit-content;
+    /* Inside auto layout */
+    align-self: stretch;
+    flex-grow: 0;
+    order: 2;
+    height: fit-content;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 10%;
+    align-items: center;
+    letter-spacing: -0.2px;
+    color: #db3838;
+}
+
+.errorText {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
 }

@@ -34,7 +34,7 @@ export default function Services() {
 
             </div>
 
-            <button className={ styles.preRegister }> <a href="#pre-register">Erken Kaydol</a></button>
+            <button className={ styles.preRegister }> <a href="#pre-register"></a> Erken Kaydol</button>
         </div>
 
     )

@@ -79,17 +79,29 @@
     flex-grow: 0;
 }
 
+@keyframes buttonShine {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-color: #25A4AD;
+        color: white;
+    }
+}
 
 
 .preRegister:hover {
-    background-color: #25A4AD;
-    color: white;
+    animation-name: buttonShine;
+    animation-duration: 0.5s;
+
 }
 
 .preRegister {
     width: 244.34px;
     height: 65.91px;
     cursor: pointer;
+    animation-fill-mode: forwards;
 
     /* Inside auto layout */
 

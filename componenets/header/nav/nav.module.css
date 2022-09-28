@@ -3,12 +3,14 @@
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 53px;
+    gap: 25px;
+    left: 2rem;
+    position: relative;
 }
 
 .logo {
-    width: 142.97px;
-    height: 171px;
+    width: 2.7rem;
+    height: 3rem;
     /* Inside auto layout */
 
     flex: none;

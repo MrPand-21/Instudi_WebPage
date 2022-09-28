@@ -26,9 +26,22 @@
     margin-block: 0 !important;
 }
 
+@keyframes buttonShine {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-color: #25A4AD;
+        color: white;
+    }
+}
+
+
 .preRegister:hover {
-    background-color: #25A4AD;
-    color: white;
+    animation-name: buttonShine;
+    animation-duration: 0.5s;
+
 }
 
 .preRegister {
@@ -36,6 +49,7 @@
     height: 65.91px;
     cursor: pointer;
     flex: none;
+    animation-fill-mode: forwards;
     order: 2;
     flex-grow: 0;
     font-family: 'Gilroy';

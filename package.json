@@ -6,6 +6,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "ajax": "0.0.4",
+    "ajax-client": "^3.0.3",
+    "axios": "^0.27.2",
     "dns": "^0.2.2",
     "fs": "0.0.1-security",
     "mongodb": "^4.10.0",
