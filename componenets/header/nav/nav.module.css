@@ -9,10 +9,7 @@
 }
 
 .logo {
-    width: 2.7rem;
-    height: 3rem;
     /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;

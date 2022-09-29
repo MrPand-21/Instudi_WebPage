@@ -9,15 +9,17 @@ export default function Nav() {
                 src={ "/images/instudi.png" }
                 alt="InStudi Logo"
                 className={ styles.logo }
-            ></img>
+                width=""
+                height=""
+            />
             <div className={ styles.navLinks }>
-                <a href="" className={ styles.navlinkitem + " " + styles.mainpage }>
+                <a href="#logo" className={ styles.navlinkitem + " " + styles.mainpage }>
                     Ana Sayfa
                 </a>
-                <a href="" className={ styles.navlinkitem + " " + styles.about }>
+                <a href="#links" className={ styles.navlinkitem + " " + styles.about }>
                     Hakkımızda
                 </a>
-                <a href="" className={ styles.navlinkitem + " " + styles.contact }>
+                <a href="#contact" className={ styles.navlinkitem + " " + styles.contact }>
                     İletişim
                 </a>
             </div>
